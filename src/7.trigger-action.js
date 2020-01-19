@@ -20,4 +20,4 @@ const echoMachine = Machine({
 });
 
 const service = interpret(echoMachine).start();
-service.send("SPEAK");
+service.send("SPEAK"); //echo is called
